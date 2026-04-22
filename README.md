@@ -1,126 +1,158 @@
-# Course: AI-Powered QA — From Basics to Autonomous Testing
+# QA Academy: Testing Enterprise AI Platform
 
 [![Course Status](https://img.shields.io/badge/status-in%20progress-yellow)]()
-[![Modules](https://img.shields.io/badge/modules-6-blue)]()
+[![Modules](https://img.shields.io/badge/modules-7-blue)]()
+[![Duration](https://img.shields.io/badge/duration-6--8%20weeks-orange)]()
 [![Languages](https://img.shields.io/badge/languages-EN%20%7C%20RU-green)]()
 
-## 🎯 Course Mission
+## 🎯 Academy Mission
 
-Transform QA engineers into AI-augmented testing professionals who can:
-- Use AI assistants effectively for test creation and bug analysis
-- Build and maintain AI-powered testing pipelines
-- Implement autonomous testing strategies
-- Critically evaluate AI outputs for quality assurance
+Train **Senior Manual QA engineers** to confidently test a **complex on-prem enterprise AI platform** with agents, LLMs, RAG pipelines, and enterprise integrations.
+
+By the end of this academy, a QA engineer will:
+- **Understand** the complete system architecture (Agent → MCP → LLM → RAG → Response)
+- **Know how to test** every component — from UI to vector database
+- **Be ready** to start working on the project from day one
 
 ## 👥 Target Audience
 
-- **QA Manual Engineers** — automating work with AI assistance
-- **QA Automation Engineers** — enhancing existing processes
-- **Test Leads** — adopting AI in the team
-- **Developers** — AI-powered testing practices
+- **Senior Manual QA engineers** with strong classical testing experience
+- **No prior AI/LLM/RAG experience required** — we start from zero
+- Engineers joining the AI platform project team
 
-## 📋 Prerequisites
+## 🏗️ Platform Under Test
 
-- Basic understanding of software testing concepts
-- Experience with at least one programming language (Python preferred)
-- Familiarity with version control (Git)
-- Basic command line skills
+An enterprise AI ecosystem with 3 applications (AI HR Assistant, AI Finance Assistant, AI Clerk) built on:
 
-## 🛠️ Technical Requirements
+```
+User → React FE → .NET Backend → Agent Runtime (MCP Host)
+                                       ↓
+                              MCP Clients → MCP Servers
+                                       ↓
+                    ┌──────────────────────────────────┐
+                    │  LLM Gateway → vLLM (Llama 3)    │
+                    │  Knowledge Base (Weaviate)        │
+                    │  Ingestion Pipeline (OCR+Embed)   │
+                    │  Langfuse (Observability)         │
+                    └──────────────────────────────────┘
+```
 
-- Python 3.10+
-- Git
-- IDE (VS Code or PyCharm)
-- Access to AI tools (ChatGPT/Claude API)
-- Docker (for modules 5-6)
+**Key technologies:** .NET MCP SDK, MCP Protocol, vLLM, HuggingFace TEI, PaddleOCR, Weaviate, Redis/RQ, Langfuse, Prometheus/Grafana, Active Directory, RBAC/ABAC
 
 ## 🗂️ Course Structure
 
 ### 🇬🇧 English (Primary)
 
-| Module | Topic | Description |
-|--------|-------|-------------|
-| [Module 1](modules/module-01-foundations/README.md) | AI Foundations for QA | AI, ML, LLM — explained for testers |
-| [Module 2](modules/module-02-prompt-engineering/README.md) | Prompt Engineering for Testers | Techniques for creating effective prompts |
-| [Module 3](modules/module-03-ai-test-creation/README.md) | AI-Assisted Test Creation | Generating test cases, test data, and automated tests |
-| [Module 4](modules/module-04-ai-analysis-debugging/README.md) | AI-Powered Analysis & Debugging | Log analysis, RCA, bug categorization |
-| [Module 5](modules/module-05-ai-testing-pipelines/README.md) | Building AI Testing Pipelines | Integrating AI into CI/CD |
-| [Module 6](modules/module-06-autonomous-testing/README.md) | Autonomous Testing & Future | Self-healing tests, AI agents |
+| Module | Topic | Duration | Description |
+|--------|-------|----------|-------------|
+| [Module 1](modules/module-01-platform-architecture/README.md) | Platform Architecture & AI Fundamentals | Week 1 | System architecture, data flow, AI basics for QA |
+| [Module 2](modules/module-02-agent-mcp-testing/README.md) | Agent & MCP Testing | Week 2 | Agent Runtime, MCP orchestration, tool invocation |
+| [Module 3](modules/module-03-rag-knowledge-base/README.md) | RAG & Knowledge Base Testing | Week 3 | Retrieval quality, ingestion pipeline, Weaviate |
+| [Module 4](modules/module-04-llm-testing/README.md) | LLM Behavior & Quality Testing | Week 4 | Hallucinations, prompt issues, response quality |
+| [Module 5](modules/module-05-security-access-control/README.md) | Security & Access Control Testing | Week 5 | RBAC/ABAC, data leakage, context isolation |
+| [Module 6](modules/module-06-observability-debugging/README.md) | Observability & Production QA | Week 6 | Langfuse traces, Prometheus, Grafana, debugging |
+| [Module 7](modules/module-07-strategy-onboarding/README.md) | Test Strategy & Onboarding | Week 7-8 | Complete test strategy, 14-day onboarding, roadmap |
 
 ### 🇷🇺 Русская версия
 
-| Модуль | Тема | Описание |
-|--------|------|----------|
-| [Модуль 1](modules/module-01-foundations_ru/README.md) | Основы AI для QA | AI, ML, LLM для тестировщиков |
-| [Модуль 2](modules/module-02-prompt-engineering_ru/README.md) | Prompt Engineering | Техники промптинга, CRISP |
-| [Модуль 3](modules/module-03-ai-test-creation_ru/README.md) | Создание тестов с AI | Генерация тест-кейсов и автотестов |
-| [Модуль 4](modules/module-04-ai-analysis-debugging_ru/README.md) | Анализ и дебаггинг | Анализ логов, RCA, классификация багов |
-| [Модуль 5](modules/module-05-ai-testing-pipelines_ru/README.md) | AI Testing Pipelines | Интеграция AI в CI/CD |
-| [Модуль 6](modules/module-06-autonomous-testing_ru/README.md) | Автономное тестирование | Self-healing, AI-агенты |
+| Модуль | Тема | Длительность | Описание |
+|--------|------|-------------|----------|
+| [Модуль 1](modules/module-01-platform-architecture_ru/README.md) | Архитектура платформы и основы AI | Неделя 1 | Архитектура системы, поток данных, основы AI для QA |
+| [Модуль 2](modules/module-02-agent-mcp-testing_ru/README.md) | Тестирование агентов и MCP | Неделя 2 | Agent Runtime, MCP оркестрация, вызов инструментов |
+| [Модуль 3](modules/module-03-rag-knowledge-base_ru/README.md) | Тестирование RAG и базы знаний | Неделя 3 | Качество retrieval, ingestion pipeline, Weaviate |
+| [Модуль 4](modules/module-04-llm-testing_ru/README.md) | Тестирование поведения LLM | Неделя 4 | Галлюцинации, проблемы промптов, качество ответов |
+| [Модуль 5](modules/module-05-security-access-control_ru/README.md) | Безопасность и контроль доступа | Неделя 5 | RBAC/ABAC, утечка данных, изоляция контекста |
+| [Модуль 6](modules/module-06-observability-debugging_ru/README.md) | Наблюдаемость и Production QA | Неделя 6 | Langfuse трейсы, Prometheus, Grafana, отладка |
+| [Модуль 7](modules/module-07-strategy-onboarding_ru/README.md) | Тест-стратегия и онбординг | Недели 7-8 | Тест-стратегия, 14-дневный онбординг, роадмэп |
 
-Each module contains:
-- 📖 **Theory** — core concepts with examples
-- 🔬 **Labs** — step-by-step practical exercises
+### Each module contains:
+- 📖 **Theory** — core concepts with platform-specific examples
+- 🔬 **Labs** — hands-on exercises with realistic scenarios
 - 📝 **Quiz** — self-assessment questions
-- 🏆 **Project** — real-world application tasks
+- 🏆 **Project** — real-world testing tasks on the platform
 - 📚 **Resources** — additional learning materials
+- 🐛 **Common Bugs** — realistic failure scenarios you'll encounter
 
-## 🚀 How to Use This Course
+## 📋 Learning Roadmap
 
-1. Follow modules sequentially
-2. Complete all labs and exercises
-3. Use the provided AI tools during practice
-4. Submit projects for each module
-5. Track your progress using the checklist below
+### Phase 1: Foundation (Weeks 1-2)
+> Understand the system, learn AI basics, test basic flows
+
+- Module 1: Platform Architecture & AI Fundamentals
+- Module 2: Agent & MCP Testing
+- **Exit criteria:** Can explain the full data flow, execute basic agent tests
+
+### Phase 2: Core (Weeks 3-4)
+> Test AI-specific components: RAG quality, LLM behavior
+
+- Module 3: RAG & Knowledge Base Testing
+- Module 4: LLM Behavior & Quality Testing
+- **Exit criteria:** Can test retrieval quality, identify hallucinations, test ingestion
+
+### Phase 3: Advanced (Weeks 5-6)
+> Security, observability, production debugging
+
+- Module 5: Security & Access Control Testing
+- Module 6: Observability & Production QA
+- **Exit criteria:** Can test RBAC/ABAC, use Langfuse for debugging, read traces
+
+### Phase 4: Production QA (Weeks 7-8)
+> Complete test strategy, ready for autonomous work
+
+- Module 7: Test Strategy & Onboarding
+- **Exit criteria:** Can write test plans, onboard new QA, execute full regression
 
 ## 📊 Progress Tracking
 
-### Module 1: AI Foundations for QA
+### Module 1: Platform Architecture & AI Fundamentals
 - [ ] Theory completed
-- [ ] Lab 1: Environment setup
-- [ ] Lab 2: First AI queries
+- [ ] Lab 1: Platform exploration & data flow mapping
+- [ ] Lab 2: First AI queries to the platform
 - [ ] Quiz passed
 - [ ] Project completed
 
-### Module 2: Prompt Engineering for Testers
+### Module 2: Agent & MCP Testing
 - [ ] Theory completed
-- [ ] Lab 1: Basic prompting techniques
-- [ ] Lab 2: QA prompt library
+- [ ] Lab 1: Agent behavior testing
+- [ ] Lab 2: MCP tool invocation testing
 - [ ] Quiz passed
 - [ ] Project completed
 
-### Module 3: AI-Assisted Test Creation
+### Module 3: RAG & Knowledge Base Testing
 - [ ] Theory completed
-- [ ] Lab 1: Test case generation
-- [ ] Lab 2: Automated test generation
+- [ ] Lab 1: Retrieval quality testing
+- [ ] Lab 2: Ingestion pipeline testing
 - [ ] Quiz passed
 - [ ] Project completed
 
-### Module 4: AI-Powered Analysis & Debugging
+### Module 4: LLM Behavior & Quality Testing
 - [ ] Theory completed
-- [ ] Lab 1: Log analysis with AI
-- [ ] Lab 2: Root Cause Analysis
+- [ ] Lab 1: Hallucination detection & prompt testing
+- [ ] Lab 2: Response quality evaluation
 - [ ] Quiz passed
 - [ ] Project completed
 
-### Module 5: Building AI Testing Pipelines
+### Module 5: Security & Access Control Testing
 - [ ] Theory completed
-- [ ] Lab 1: AI in CI/CD
-- [ ] Lab 2: AI API in test frameworks
+- [ ] Lab 1: RBAC/ABAC testing
+- [ ] Lab 2: Data leakage & context isolation testing
 - [ ] Quiz passed
 - [ ] Project completed
 
-### Module 6: Autonomous Testing & Future
+### Module 6: Observability & Production QA
 - [ ] Theory completed
-- [ ] Lab 1: Self-healing tests
-- [ ] Lab 2: AI agent for testing
+- [ ] Lab 1: Langfuse traces & debugging
+- [ ] Lab 2: Prometheus/Grafana monitoring
 - [ ] Quiz passed
 - [ ] Project completed
 
-## 📝 Language
-
-Primary content in **English**. Russian versions available in separate `-ru` module folders.
+### Module 7: Test Strategy & Onboarding
+- [ ] Theory completed
+- [ ] Lab 1: Test strategy creation
+- [ ] Lab 2: 14-day onboarding simulation
+- [ ] Quiz passed
+- [ ] Final project completed
 
 ## 📄 License
 
-This course is created for educational purposes.
+This course is created for internal educational purposes.
