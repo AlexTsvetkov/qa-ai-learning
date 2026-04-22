@@ -1,33 +1,13 @@
-# Module 6: Autonomous Testing & Future
-
-## 📋 Module Overview
-
-Explore the cutting edge of AI in testing: self-healing tests, AI agents for exploratory testing, visual AI testing, and the future trends that will shape QA.
-
-## 🎯 Learning Objectives
-
-- Implement self-healing test strategies
-- Build an AI agent for exploratory testing
-- Understand visual AI testing approaches
-- Evaluate emerging trends in AI-powered QA
-
-## 📚 Contents
+# Модуль 6: Автономное тестирование и будущее
+Self-healing тесты, AI-агенты, визуальное тестирование, тренды.
 
 | Материал | Описание |
-|----------|-------------|
-| [📖 Theory](theory.md) | Autonomous testing concepts and future trends |
-| [🔬 Lab 1](labs/lab-01-self-healing-tests.md) | Building self-healing tests |
-| [🔬 Lab 2](labs/lab-02-ai-testing-agent.md) | Creating an AI testing agent |
-| [📝 Quiz](quiz.md) | Self-assessment questions |
-| [🏆 Project](project.md) | Build an autonomous testing prototype |
-| [📚 Resources](resources.md) | Additional materials |
+|---|---|
+| [Теория](theory.md) | Автономное тестирование |
+| [Лаб 1](labs/lab-01-self-healing-tests.md) | Self-healing тесты |
+| [Лаб 2](labs/lab-02-ai-testing-agent.md) | AI-агент |
+| [Квиз](quiz.md) | Самопроверка |
+| [Проект](project.md) | Прототип |
+| [Ресурсы](resources.md) | Доп. материалы |
 
-## ⏱️ Время: ~11 часов
-
-## 🛠️ Additional Prerequisites
-- Docker installed
-- Completed all previous modules
-- Comfortable with AI APIs
-
-
-> 🌐 [English version](../module-06-autonomous-testing/README.md)
+> [English version](../module-06-autonomous-testing/README.md)

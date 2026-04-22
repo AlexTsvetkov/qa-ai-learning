@@ -1,35 +1,34 @@
-# Module 1: AI Foundations for QA
+# Модуль 1: Основы AI для QA
 
-## 📋 Module Overview
+## 📋 Обзор модуля
 
-In this module, you'll explore the fundamental concepts of artificial intelligence in the context of software testing. We'll break down what AI, ML, and LLM mean in simple terms, review key tools, and learn how AI can help in daily QA work.
+В этом модуле вы познакомитесь с фундаментальными концепциями искусственного интеллекта в контексте тестирования ПО. Мы разберём, что такое AI, ML и LLM простым языком, рассмотрим основные инструменты и узнаем, как AI может помочь в повседневной работе QA-инженера.
 
-## 🎯 Learning Objectives
+## 🎯 Цели обучения
 
-After completing this module, you will be able to:
-- Explain key concepts of AI, ML, and LLM
-- Identify the main AI tools useful for QA
-- Describe specific use cases for AI in testing
-- Understand the limitations and risks of using AI
-- Set up a working environment for AI-powered testing
+После завершения модуля вы сможете:
+- Объяснить ключевые концепции AI, ML и LLM
+- Назвать основные AI-инструменты, полезные для QA
+- Описать конкретные use cases применения AI в тестировании
+- Понимать ограничения и риски использования AI
+- Настроить рабочее окружение для работы с AI-инструментами
 
-## 📚 Contents
+## 📚 Содержание
 
 | Материал | Описание |
-|----------|-------------|
-| [📖 Theory](theory.md) | AI, ML, LLM — core concepts for testers |
-| [🔬 Lab 1](labs/lab-01-setup.md) | Setting up the working environment |
-| [🔬 Lab 2](labs/lab-02-first-queries.md) | First queries to AI |
-| [📝 Quiz](quiz.md) | Self-assessment questions |
-| [🏆 Project](project.md) | Exploring AI tools for QA |
-| [📚 Resources](resources.md) | Additional materials |
+|----------|----------|
+| [📖 Теория](theory.md) | AI, ML, LLM — основные концепции для тестировщиков |
+| [🔬 Лаб. работа 1](labs/lab-01-setup.md) | Настройка рабочего окружения |
+| [🔬 Лаб. работа 2](labs/lab-02-first-queries.md) | Первые запросы к AI |
+| [📝 Квиз](quiz.md) | Вопросы для самопроверки |
+| [🏆 Проект](project.md) | Исследование AI-инструментов для QA |
+| [📚 Ресурсы](resources.md) | Дополнительные материалы |
 
-## ⏱️ Estimated Time
+## ⏱️ Ожидаемое время
 
-- Theory: ~2 часов
-- Labs: ~3 часов
-- Project: ~2 часов
+- Теория: ~2 часа
+- Лабораторные работы: ~3 часа
+- Проект: ~2 часа
 - **Всего: ~7 часов**
-
 
 > 🌐 [English version](../module-01-foundations/README.md)
