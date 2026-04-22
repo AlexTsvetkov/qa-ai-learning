@@ -26,4 +26,3 @@
 ## 📝 Результат
 3+ баг-репорта, оценка качества 5+ ответов.
 
-> 🌐 [English version](../../module-01-platform-architecture/labs/lab-02-first-ai-queries.md)

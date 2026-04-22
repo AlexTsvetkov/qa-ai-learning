@@ -28,4 +28,3 @@
 ## 📝 Результат
 Диаграмма полного потока данных с подписями компонентов и технологий.
 
-> 🌐 [English version](../../module-01-platform-architecture/labs/lab-01-platform-exploration.md)

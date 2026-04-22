@@ -34,4 +34,3 @@
 **В2:** C — Неверные документы найдены или не найдены нужные
 **В3:** B **В4:** B **В5:** C
 
-> 🌐 [English version](../module-01-platform-architecture/quiz.md)

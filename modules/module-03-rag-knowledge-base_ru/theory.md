@@ -43,4 +43,3 @@
 | RAG-007 | OCR перепутал числа | Critical |
 | RAG-009 | RBAC фильтр не применён | Critical |
 
-> 🌐 [English version](../module-03-rag-knowledge-base/theory.md)

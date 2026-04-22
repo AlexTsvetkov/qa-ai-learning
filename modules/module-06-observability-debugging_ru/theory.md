@@ -40,4 +40,3 @@ Metadata (user_id, app, timestamp) → Spans: prompt_resolution → tool_plannin
 **Pre-release:** версия промпта, golden set регрессия, spot check качества, baseline латентности
 **Post-release:** 1ч: error rate, 24ч: жалобы пользователей, 1 нед: тренды
 
-> 🌐 [English version](../module-06-observability-debugging/theory.md)

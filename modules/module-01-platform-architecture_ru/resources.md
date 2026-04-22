@@ -7,4 +7,3 @@
 - [Langfuse Документация](https://langfuse.com/docs) — Наблюдаемость для LLM
 - [Что такое RAG?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 
-> 🌐 [English version](../module-01-platform-architecture/resources.md)

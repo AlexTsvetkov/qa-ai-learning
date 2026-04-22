@@ -1,3 +1,15 @@
 # Модуль 4: Ресурсы
-- [Llama 3](https://ai.meta.com/llama/) — [vLLM](https://docs.vllm.ai/) — [Langfuse Промпты](https://langfuse.com/docs/prompts) — [RAGAS](https://docs.ragas.io/)
-> 🌐 [English version](../module-04-llm-testing/resources.md)
+
+## 📚 Обязательное чтение
+- [Llama 3 Model Card](https://ai.meta.com/llama/) — Понимание используемой LLM
+- [vLLM Документация](https://docs.vllm.ai/) — Фреймворк обслуживания LLM
+- [Langfuse Управление промптами](https://langfuse.com/docs/prompts) — Версионирование промптов
+- [Галлюцинации в LLM (обзор)](https://arxiv.org/abs/2311.05232) — Академический обзор
+- [RAGAS Фреймворк оценки](https://docs.ragas.io/) — Метрики оценки RAG
+
+## 🔧 Ключевые инструменты
+| Инструмент | Назначение |
+|-----------|-----------|
+| Langfuse | Версионирование промптов, инспекция трейсов, оценки |
+| curl/Postman | Прямое тестирование LLM-эндпоинтов |
+| Таблица | GRACE-скоринг и отслеживание |

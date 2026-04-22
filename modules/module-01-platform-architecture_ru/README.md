@@ -31,4 +31,3 @@
 - Проект: ~3 часа
 - **Итого: ~10 часов (Неделя 1)**
 
-> 🌐 [English version](../module-01-platform-architecture/README.md)

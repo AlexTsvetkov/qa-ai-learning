@@ -48,4 +48,3 @@
 | LLM-007 | Противоречие документу | Critical |
 | LLM-008 | OOM на GPU при нагрузке | Critical |
 
-> 🌐 [English version](../module-04-llm-testing/theory.md)

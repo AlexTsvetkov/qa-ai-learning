@@ -10,4 +10,3 @@
 4. **Ключевые URL** — все ссылки для ежедневной работы QA
 5. **Глоссарий** — 15 важнейших терминов
 
-> 🌐 [English version](../module-01-platform-architecture/project.md)

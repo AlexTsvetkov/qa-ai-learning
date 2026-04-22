@@ -48,4 +48,3 @@
 | Advanced | 5-6 | Безопасность, отладка | RBAC тесты, debugging workflow |
 | Production | 7-8 | Самостоятельная работа | Тест-стратегия, онбординг других |
 
-> 🌐 [English version](../module-07-strategy-onboarding/theory.md)

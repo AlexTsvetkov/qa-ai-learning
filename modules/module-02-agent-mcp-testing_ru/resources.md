@@ -1,6 +1,18 @@
 # Модуль 2: Ресурсы
-- [MCP Спецификация](https://modelcontextprotocol.io/)
-- [MCP .NET SDK](https://github.com/modelcontextprotocol/csharp-sdk)
-- [Langfuse Трейсы](https://langfuse.com/docs/tracing)
 
-> 🌐 [English version](../module-02-agent-mcp-testing/resources.md)
+## 📚 Обязательное чтение
+- [MCP Спецификация](https://modelcontextprotocol.io/) — Полная документация протокола
+- [MCP .NET SDK](https://github.com/modelcontextprotocol/csharp-sdk) — SDK, используемый в нашей платформе
+- [Langfuse Трейсы](https://langfuse.com/docs/tracing) — Понимание трейсов и спанов
+
+## 🔧 Ключевые инструменты
+| Инструмент | Назначение |
+|-----------|-----------|
+| Langfuse | Проверка трейсов для верификации поведения агента |
+| Postman | Прямое тестирование MCP-серверов через API |
+| Browser DevTools | Инспекция запросов фронтенда |
+
+## 📋 Шаблоны тест-кейсов
+- Тест выбора инструмента: Вопрос → Ожидаемый инструмент → Проверка трейса
+- Тест отказа MCP: Условие отказа → Ожидаемое поведение → Проверка восстановления
+- Тест инъекции: Атакующий ввод → Ожидаемый отказ → Проверка трейса
